@@ -1,0 +1,23 @@
+.box {
+  border: 1px solid black;
+  max-width: 500px;
+  margin: 50px auto 0;
+}
+.box_header {
+  text-align: center;
+  background: green;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 28px;
+}
+.box_content {
+  padding: 15px 0;
+}
+.box_item {
+  border: 1px solid black;
+  margin-bottom: 0;
+}
+.box_item:not(:last-child) {
+  margin-bottom: 10px;
+}
